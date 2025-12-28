@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify - your favourite music is here </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand "> <image src="logo.png" alt="Spolif " width="44px" padding="0 8px" > SP<span>O</span>LIF </li>    
+                <li class="nav-item active" data-page="home">Home</li>
+                <li class="nav-item" data-page="about">About</li>
+                
+            </ul>
+        </nav>
+        <section id="home" class="page active">
+            
+                   <div class="container">
+            <div class="songlist">
+            <h1>Best of NCS - No copyright Sounds   </h1>
+            
+            <div class="songItemContainer">
+                <div class="songitem">
+                    <img src="covers/covers1.jpg" alt="1"  >
+                    <span class="songname">Let me love you</span>
+                    <span class="songlistplay"><span class="timeStamp"> 5:25<i id="1" class="fa-solid songitemPlay fa-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/2.jpg" alt="1"  >
+                    <span class="songname">Let me love you</span>
+                    <span class="songlistplay"><span class="timeStamp"> 5:25<i id="2" class="fa-solid songitemPlay fa-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/3.jpg" alt="1"  >
+                    <span class="songname">Let me love you</span>
+                    <span class="songlistplay"><span class="timeStamp"> 5:25<i id="3" class="fa-solid songitemPlay fa-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/4.jpg" alt="1"  >
+                    <span class="songname">Let me love you</span>
+                    <span class="songlistplay"><span class="timeStamp"> 5:25<i id="4" class="fa-solid songitemPlay fa-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/5.jpg" alt="1"  >
+                    <span class="songname">Let me love you</span>
+                    <span class="songlistplay"><span class="timeStamp"> 5:25<i id="5" class="fa-solid songitemPlay fa-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/6.jpg" alt="1"  >
+                    <span class="songname">Let me love you</span>
+                    <span class="songlistplay"><span class="timeStamp"> 5:25<i id="6" class="fa-solid songitemPlay fa-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/7.jpg" alt="1"  >
+                    <span class="songname">Let me love you</span>
+                    <span class="songlistplay"><span class="timeStamp"> 5:25<i id="7" class="fa-solid songitemPlay fa-play"></i></span></span>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        <div class="songbanner">
+            
+        </div>
+        
+    </div>
+    </section>
+<section id="about" class="page">
+
+    <div class="about-box">
+        <h2>About SPOLIF</h2>
+        <p>
+            SPOLIF is a custom-built music player created using
+            HTML, CSS, and JavaScript.
+            <br><br>
+            It focuses on clean UI, smooth interactions,
+            and a distraction-free listening experience.
+        </p>
+    </div>
+
+</section>
+    
+    <div class="bottom">
+        <input type="Range" name="Range" id="myProgressBar" min="0" value="0" max="100" >
+        <div class="icons">
+            <i class="far fa-2x fa-solid fa-backward-step" id="previous" style="color: #B197FC;"></i>
+            <i class=" far fa-2x fa-solid fa-play" id="masterplay" style="color: #B197FC;"  ></i>
+            <i class="far fa-2x fa-solid fa-forward-step" id="next" style="color: #B197FC;"></i>
+            
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" alt=""id="gif" width="50px"><span id="mastersongName">Dhundhala</span> 
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    <script src="https://kit.fontawesome.com/49663d42e1.js" crossorigin="anonymous"></script>
+    <script src="scale.js"></script>
+    
+</body>
+</html>
